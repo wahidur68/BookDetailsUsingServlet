@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	input{
+	display:flex;
+	padding:1px;
+    margin:2px;
+	border:1px solid black;
+    
+    border-radius:5px;
+	}
+	.submit{
+	background-color:cyan;
+	}
+	.submit:hover{
+	color:tomato;
+	}
+</style>
+</head>
+<body>
+	<form action="addBook" method="post">
+		Enter BookCode:<input type="text" name="code">
+		Enter BookName:<input type="text" name="bName">
+		Enter BookAuther:<input type="text" name="bAuther">
+		Enter BookPrice:<input type="text" name="bPrice">
+		Enter BookQty:<input type="text" name="bQty">
+		<input class ="submit" type="submit" value="dispay">
+	</form>
+</body>
+</html>
